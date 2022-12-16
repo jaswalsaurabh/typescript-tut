@@ -1,0 +1,41 @@
+Type Alias
+
+number , string, arr[], boolean
+
+Eg: type User ={
+    name: string;
+    age: number
+}
+
+
+Interfaces => similar as the type Alias
+
+Extends key => combines two interfaces 
+
+Q) How to merge 2 interfaces 
+Ans. use same name and add the new property you want to add in that inteface
+
+Q) Which one we should use interfaces or type Alias
+Ans. whatever you're comfortable with 
+
+Q) there are some limitation of these two(interfaces, type Alias)?
+ans. we cannot do merge in type Alias, interfaces are for objects and types are for primitive
+
+Q) What is Narrowing?
+Ans. if type id this do this else do this, this is only available when we are using unions
+
+
+
+Q) What is generics in typescript ?
+Ans. 
+
+
+Q) What is structural typing and duck typing ?
+Ans. If we have two objects , and they have same properties and methods(structure), then TS understand it as one same type.
+
+
+Q) What is inference in ts?
+
+
+
+
